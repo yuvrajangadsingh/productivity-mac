@@ -7,6 +7,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+alias python3='/opt/homebrew/bin/python3.12'
+alias pip3='/opt/homebrew/bin/pip3.12'
+
 export PATH=~/.composer/vendor/bin:$PATH
 export PATH="$HOME/usr/local/bin/npm/bin:$PATH"
 export PATH=$PATH:/usr/local/sbin
